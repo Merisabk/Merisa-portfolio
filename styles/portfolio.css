@@ -7,8 +7,17 @@ Typography
 ================== */
 
 h1 {
-  font-family: sans-serif;
+  font-family: atlas-grotesk;
   font-weight: 400;
+  font-size: 32px;
+}
+h2 {
+  font-family: atlas-grotesk;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 47px;
+  line-height: 56px;
+  margin-top: 0;
 }
 
 /* ================
@@ -26,8 +35,12 @@ h1 {
 }
 header {
   text-align: center;
-  background: #f8f8f8;
+  background: white;
   padding: 1em 0;
+}
+.main-hero {
+  background: #f8f8f8;
+  padding: 150px;
 }
 
 @media (max-width: 675px) {
@@ -55,6 +68,7 @@ header {
 
 .nav-list-item {
   margin-left: 2em;
+  font-size: 16px;
 }
 
 .nav-link {
